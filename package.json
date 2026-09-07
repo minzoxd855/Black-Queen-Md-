@@ -1,5 +1,5 @@
 {
-  "name": "QUEEN-NESHU-MD",
+  "name": "THUHI-MD",
   "version": "3.0.0",
   "description": "Multi-session WhatsApp Bot with Advanced Plugin System",
   "main": "pair.js",
@@ -8,12 +8,12 @@
     "dev": "nodemon pair.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys":"npm:amiudmodz",
+    "@whiskeysockets/baileys": "^6.6.0",
     "axios": "^1.6.0",
     "express": "^4.18.2",
     "file-type": "^16.5.4",
     "fs-extra": "^11.1.1",
-    "jimp": "^1.6.0",
+    "jimp": "^0.22.10",
     "mongoose": "^8.0.0",
     "cors": "^2.8.5",
     "node-cache": "^5.1.2",
@@ -24,13 +24,9 @@
     "ffmpeg-static": "^5.2.0",
     "g-i-s": "^2.1.6",
     "moment-timezone": "^0.5.43",
-    "sadaslk-dlcore": "latest",
     "form-data": "^4.0.0",
     "node-fetch": "^2.7.0",
-    "cheerio": "^1.0.0-rc.12",
-    "dxz-ytdl": "latest",
-    "darksadas-yt-pornhub-scrape": "latest",
-    "@spinzaf/freefire-api": "latest"
+    "cheerio": "^1.0.0-rc.12"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
